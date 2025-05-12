@@ -1,0 +1,138 @@
+[debug] [2025-05-12T16:22:07.354Z] ----------------------------------------------------------------------
+[debug] [2025-05-12T16:22:07.355Z] Command:       /usr/local/bin/node /Users/syheemlewis/Downloads/G000/node_modules/.bin/firebase apphosting:backends:create --project resonance-fa2ae
+[debug] [2025-05-12T16:22:07.355Z] CLI Version:   14.3.1
+[debug] [2025-05-12T16:22:07.355Z] Platform:      darwin
+[debug] [2025-05-12T16:22:07.355Z] Node Version:  v22.13.1
+[debug] [2025-05-12T16:22:07.356Z] Time:          Mon May 12 2025 12:22:07 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-05-12T16:22:07.356Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-12T16:22:07.443Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-12T16:22:07.444Z] > authorizing via signed-in user (divisionofaes@gmail.com)
+[debug] [2025-05-12T16:22:07.444Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:07.444Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:07.445Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-05-12T16:22:07.445Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/resonance-fa2ae
+[debug] [2025-05-12T16:22:08.151Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-05-12T16:22:08.152Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-05-12T16:22:08.152Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.152Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.153Z] >>> [apiv2][query] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus [none]
+[debug] [2025-05-12T16:22:08.816Z] <<< [apiv2][status] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus 200
+[debug] [2025-05-12T16:22:08.816Z] <<< [apiv2][body] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus {"overallStatus":"ACCEPTED","uTosStatus":{"tos":{"id":"firebase","tosId":"FIREBASE_UNIVERSAL"},"status":"ACCEPTED","acceptedVersion":7},"childTosStatus":[{"tos":{"id":"cloud","tosId":"CLOUD_PLATFORM"},"status":"ACCEPTED","acceptedVersion":36},{"tos":{"id":"firebase_b2b","tosId":"FIREBASE_B2B"},"status":"ACCEPTED","acceptedVersion":1},{"tos":{"id":"universal","tosId":"GOOGLE_APIS"},"status":"ACCEPTED","acceptedVersion":6}],"termsUrl":"https://firebase.google.com/terms","perServiceStatus":[{"tosId":"APP_CHECK","serviceStatus":{"tos":{"id":"app_check","tosId":"APP_CHECK"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"APP_HOSTING_TOS","serviceStatus":{"tos":{"id":"app_hosting","tosId":"APP_HOSTING_TOS"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"FIREBASE_DATA_CONNECT","serviceStatus":{"tos":{"id":"data_connect","tosId":"FIREBASE_DATA_CONNECT"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"CORE_APPS","serviceStatus":{"tos":{"id":"core_apps","tosId":"CORE_APPS"},"status":"ACCEPTED","acceptedVersion":1}},{"tosId":"VERTEX_AI_IN_FIREBASE","serviceStatus":{"tos":{"id":"vertex_ai_in_firebase","tosId":"VERTEX_AI_IN_FIREBASE"},"status":"ACCEPTED","acceptedVersion":2}},{"tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION","serviceStatus":{"tos":{"id":"firebase_crashlytics_app_distribution","tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION"},"status":"ACCEPTED","acceptedVersion":4}},{"tosId":"GENERATIVE_LANGUAGE","serviceStatus":{"tos":{"id":"generative-language-api","tosId":"GENERATIVE_LANGUAGE"},"status":"NEVER_ACCEPTED","acceptedVersion":3}}]}
+[debug] [2025-05-12T16:22:08.817Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.817Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.817Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.817Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.817Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.817Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.817Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.817Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.817Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.818Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.818Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.818Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:08.818Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/developerconnect.googleapis.com [none]
+[debug] [2025-05-12T16:22:08.818Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/developerconnect.googleapis.com x-goog-quota-user=projects/resonance-fa2ae
+[debug] [2025-05-12T16:22:08.819Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/cloudbuild.googleapis.com [none]
+[debug] [2025-05-12T16:22:08.819Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/cloudbuild.googleapis.com x-goog-quota-user=projects/resonance-fa2ae
+[debug] [2025-05-12T16:22:08.821Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/secretmanager.googleapis.com [none]
+[debug] [2025-05-12T16:22:08.821Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/secretmanager.googleapis.com x-goog-quota-user=projects/resonance-fa2ae
+[debug] [2025-05-12T16:22:08.824Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/run.googleapis.com [none]
+[debug] [2025-05-12T16:22:08.824Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/run.googleapis.com x-goog-quota-user=projects/resonance-fa2ae
+[debug] [2025-05-12T16:22:08.827Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/artifactregistry.googleapis.com [none]
+[debug] [2025-05-12T16:22:08.827Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/artifactregistry.googleapis.com x-goog-quota-user=projects/resonance-fa2ae
+[debug] [2025-05-12T16:22:08.830Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/iam.googleapis.com [none]
+[debug] [2025-05-12T16:22:08.830Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/iam.googleapis.com x-goog-quota-user=projects/resonance-fa2ae
+[debug] [2025-05-12T16:22:09.276Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/run.googleapis.com 200
+[debug] [2025-05-12T16:22:09.276Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/run.googleapis.com [omitted]
+[debug] [2025-05-12T16:22:09.277Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/artifactregistry.googleapis.com 200
+[debug] [2025-05-12T16:22:09.277Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/artifactregistry.googleapis.com [omitted]
+[debug] [2025-05-12T16:22:09.277Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/secretmanager.googleapis.com 200
+[debug] [2025-05-12T16:22:09.277Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/secretmanager.googleapis.com [omitted]
+[debug] [2025-05-12T16:22:09.278Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/developerconnect.googleapis.com 200
+[debug] [2025-05-12T16:22:09.278Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/developerconnect.googleapis.com [omitted]
+[debug] [2025-05-12T16:22:09.279Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/cloudbuild.googleapis.com 200
+[debug] [2025-05-12T16:22:09.279Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/cloudbuild.googleapis.com [omitted]
+[debug] [2025-05-12T16:22:09.279Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/iam.googleapis.com 200
+[debug] [2025-05-12T16:22:09.279Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/resonance-fa2ae/services/iam.googleapis.com [omitted]
+[debug] [2025-05-12T16:22:09.280Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:09.280Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:09.280Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/resonance-fa2ae/serviceAccounts/firebase-app-hosting-compute@resonance-fa2ae.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-05-12T16:22:09.280Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/resonance-fa2ae/serviceAccounts/firebase-app-hosting-compute@resonance-fa2ae.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/resonance-fa2ae
+[debug] [2025-05-12T16:22:09.280Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/resonance-fa2ae/serviceAccounts/firebase-app-hosting-compute@resonance-fa2ae.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-05-12T16:22:09.564Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/resonance-fa2ae/serviceAccounts/firebase-app-hosting-compute@resonance-fa2ae.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-05-12T16:22:09.565Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/resonance-fa2ae/serviceAccounts/firebase-app-hosting-compute@resonance-fa2ae.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-05-12T16:22:09.565Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:09.566Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:09.566Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/resonance-fa2ae/locations 
+[debug] [2025-05-12T16:22:10.038Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/resonance-fa2ae/locations 200
+[debug] [2025-05-12T16:22:10.039Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/resonance-fa2ae/locations {"locations":[{"name":"projects/resonance-fa2ae/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/resonance-fa2ae/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/resonance-fa2ae/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[info] ✔  Location set to us-central1.
+ 
+[info] i  === Import a GitHub repository 
+[debug] [2025-05-12T16:22:13.790Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:13.790Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:13.790Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections pageSize=1000&pageToken=
+[debug] [2025-05-12T16:22:14.272Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections 200
+[debug] [2025-05-12T16:22:14.272Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections {"connections":[{"name":"projects/resonance-fa2ae/locations/us-central1/connections/firebase-app-hosting-github-oauth","createTime":"2025-05-12T16:19:28.555536515Z","updateTime":"2025-05-12T16:19:57.438128397Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/resonance-fa2ae/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-54e938/versions/latest","username":"SyiTek"},"appInstallationId":"66622990","installationUri":"https://github.com/settings/installations/66622990"},"installationState":{"stage":"COMPLETE"}},{"name":"projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm","createTime":"2025-05-12T16:19:58.780840860Z","updateTime":"2025-05-12T16:19:59.488562831Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/resonance-fa2ae/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-54e938/versions/latest","username":"SyiTek"},"appInstallationId":"66622990","installationUri":"https://github.com/settings/installations/66622990"},"installationState":{"stage":"COMPLETE"}}]}
+[debug] [2025-05-12T16:22:14.273Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:14.273Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:14.273Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm:fetchGitHubInstallations [none]
+[debug] [2025-05-12T16:22:14.601Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm:fetchGitHubInstallations 200
+[debug] [2025-05-12T16:22:14.602Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm:fetchGitHubInstallations {"installations":[{"id":"66622990","name":"SyiTek","type":"user"}]}
+[debug] [2025-05-12T16:22:17.988Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:17.988Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:17.988Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections pageSize=1000&pageToken=
+[debug] [2025-05-12T16:22:18.094Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections 200
+[debug] [2025-05-12T16:22:18.094Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections {"connections":[{"name":"projects/resonance-fa2ae/locations/us-central1/connections/firebase-app-hosting-github-oauth","createTime":"2025-05-12T16:19:28.555536515Z","updateTime":"2025-05-12T16:19:57.438128397Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/resonance-fa2ae/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-54e938/versions/latest","username":"SyiTek"},"appInstallationId":"66622990","installationUri":"https://github.com/settings/installations/66622990"},"installationState":{"stage":"COMPLETE"}},{"name":"projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm","createTime":"2025-05-12T16:19:58.780840860Z","updateTime":"2025-05-12T16:19:59.488562831Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/resonance-fa2ae/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-54e938/versions/latest","username":"SyiTek"},"appInstallationId":"66622990","installationUri":"https://github.com/settings/installations/66622990"},"installationState":{"stage":"COMPLETE"}}]}
+[info] i  Reusing matching connection apphosting-github-conn-220kvvm 
+[debug] [2025-05-12T16:22:18.095Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:18.095Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:18.096Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm:fetchLinkableGitRepositories pageSize=1000&pageToken=
+[debug] [2025-05-12T16:22:18.419Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm:fetchLinkableGitRepositories 200
+[debug] [2025-05-12T16:22:18.419Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm:fetchLinkableGitRepositories {"linkableGitRepositories":[{"cloneUri":"https://github.com/SyiTek/Agent-Tracker.git"},{"cloneUri":"https://github.com/SyiTek/Pentara-Solara.git"},{"cloneUri":"https://github.com/SyiTek/resonance.git"}]}
+[debug] [2025-05-12T16:22:20.238Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:20.239Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:20.239Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm [none]
+[debug] [2025-05-12T16:22:20.342Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm 200
+[debug] [2025-05-12T16:22:20.342Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm {"name":"projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm","createTime":"2025-05-12T16:19:58.780840860Z","updateTime":"2025-05-12T16:19:59.488562831Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/resonance-fa2ae/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-54e938/versions/latest","username":"SyiTek"},"appInstallationId":"66622990","installationUri":"https://github.com/settings/installations/66622990"},"installationState":{"stage":"COMPLETE"}}
+[debug] [2025-05-12T16:22:20.343Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:20.343Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:20.343Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance [none]
+[debug] [2025-05-12T16:22:20.442Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance 404
+[debug] [2025-05-12T16:22:20.443Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance {"error":{"code":404,"message":"Resource 'projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance' was not found","status":"NOT_FOUND","details":[{"@type":"type.googleapis.com/google.rpc.ResourceInfo","resourceName":"projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance"}]}}
+[debug] [2025-05-12T16:22:20.444Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:20.445Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:20.445Z] >>> [apiv2][query] POST https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks gitRepositoryLinkId=SyiTek-resonance
+[debug] [2025-05-12T16:22:20.445Z] >>> [apiv2][body] POST https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks {"cloneUri":"https://github.com/SyiTek/resonance.git"}
+[debug] [2025-05-12T16:22:20.592Z] <<< [apiv2][status] POST https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks 200
+[debug] [2025-05-12T16:22:20.592Z] <<< [apiv2][body] POST https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks {"name":"projects/resonance-fa2ae/locations/us-central1/operations/operation-1747066940534-634f2b863ad5b-718f74f0-84df5df5","metadata":{"@type":"type.googleapis.com/google.cloud.developerconnect.v1.OperationMetadata","createTime":"2025-05-12T16:22:20.548680177Z","target":"projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance","verb":"create","requestedCancellation":false,"apiVersion":"v1"},"done":false}
+[debug] [2025-05-12T16:22:20.593Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:20.593Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:20.594Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/operations/operation-1747066940534-634f2b863ad5b-718f74f0-84df5df5 [none]
+[debug] [2025-05-12T16:22:20.734Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/operations/operation-1747066940534-634f2b863ad5b-718f74f0-84df5df5 200
+[debug] [2025-05-12T16:22:20.734Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/operations/operation-1747066940534-634f2b863ad5b-718f74f0-84df5df5 {"name":"projects/resonance-fa2ae/locations/us-central1/operations/operation-1747066940534-634f2b863ad5b-718f74f0-84df5df5","metadata":{"@type":"type.googleapis.com/google.cloud.developerconnect.v1.OperationMetadata","createTime":"2025-05-12T16:22:20.548680177Z","target":"projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance","verb":"create","requestedCancellation":false,"apiVersion":"v1"},"done":false}
+[debug] [2025-05-12T16:22:21.236Z] [create-us-central1-apphosting-github-conn-220kvvm-SyiTek-resonance] Retrying task index 0
+[debug] [2025-05-12T16:22:21.237Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:21.237Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:21.237Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/operations/operation-1747066940534-634f2b863ad5b-718f74f0-84df5df5 [none]
+[debug] [2025-05-12T16:22:21.332Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/operations/operation-1747066940534-634f2b863ad5b-718f74f0-84df5df5 200
+[debug] [2025-05-12T16:22:21.332Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/operations/operation-1747066940534-634f2b863ad5b-718f74f0-84df5df5 {"name":"projects/resonance-fa2ae/locations/us-central1/operations/operation-1747066940534-634f2b863ad5b-718f74f0-84df5df5","metadata":{"@type":"type.googleapis.com/google.cloud.developerconnect.v1.OperationMetadata","createTime":"2025-05-12T16:22:20.548680177Z","endTime":"2025-05-12T16:22:20.922874347Z","target":"projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance","verb":"create","requestedCancellation":false,"apiVersion":"v1"},"done":true,"response":{"@type":"type.googleapis.com/google.cloud.developerconnect.v1.GitRepositoryLink","name":"projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance","cloneUri":"https://github.com/SyiTek/resonance.git","createTime":"2025-05-12T16:22:20.539900179Z","updateTime":"2025-05-12T16:22:20.539900179Z"}}
+[debug] [2025-05-12T16:22:27.824Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:27.824Z] Checked if tokens are valid: true, expires at: 1747068889773
+[debug] [2025-05-12T16:22:27.824Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance:fetchGitRefs refType=BRANCH&pageSize=1000&pageToken=
+[debug] [2025-05-12T16:22:28.387Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance:fetchGitRefs 200
+[debug] [2025-05-12T16:22:28.387Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/resonance-fa2ae/locations/us-central1/connections/apphosting-github-conn-220kvvm/gitRepositoryLinks/SyiTek-resonance:fetchGitRefs {}
+[debug] [2025-05-12T16:23:14.984Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (/Users/syheemlewis/Downloads/G000/node_modules/@inquirer/core/dist/commonjs/lib/create-prompt.js:100:37)
+    at Interface.emit (node:events:524:28)
+    at Interface.emit (node:domain:489:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1124:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:263:20)
+    at ReadStream.emit (node:events:536:35)
+    at ReadStream.emit (node:domain:489:12)
+    at emitKeys (node:internal/readline/utils:370:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.
