@@ -25,9 +25,17 @@ import {
 } from '@/components/ui/card';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
-import NetworkGraph from '@/components/dashboard/network-graph';
+import dynamic from 'next/dynamic';
 import RecentCommissions from '@/components/dashboard/recent-commissions';
 import ActiveTargets from '@/components/dashboard/active-targets';
+import ClientOnly from '@/utils/client-only';
+import SSRNetworkGraph from '@/components/dashboard/ssr-network-graph';
+
+// Import NetworkGraph with dynamic import to prevent SSR issues
+const NetworkGraph = dynamic(
+  () => import('@/components/dashboard/network-graph'),
+  { ssr: false, loading: () => <SSRNetworkGraph /> }
+);
 
 export default function HubPage() {
   const [loaded, setLoaded] = useState(false);

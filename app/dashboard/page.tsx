@@ -23,8 +23,16 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import DashboardHeader from '@/components/dashboard/dashboard-header';
 import RecentCommissions from '@/components/dashboard/recent-commissions';
 import ActiveTargets from '@/components/dashboard/active-targets';
-import NetworkGraph from '@/components/dashboard/network-graph';
+import dynamic from 'next/dynamic';
 import { useRouter } from 'next/navigation';
+import ClientOnly from '@/utils/client-only';
+import SSRNetworkGraph from '@/components/dashboard/ssr-network-graph';
+
+// Import NetworkGraph with dynamic import to prevent SSR issues
+const NetworkGraph = dynamic(
+  () => import('@/components/dashboard/network-graph'),
+  { ssr: false, loading: () => <SSRNetworkGraph /> }
+);
 
 export default function DashboardPage() {
   const [loaded, setLoaded] = useState(false);

@@ -42,10 +42,6 @@ const nextConfig = {
   images: {
     domains: ['firebasestorage.googleapis.com'],
   },
-  // Remove warning about experimental features
-  experimental: {
-    appDir: true,
-  },
 };
 
 module.exports = nextConfig;
