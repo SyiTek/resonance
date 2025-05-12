@@ -109,9 +109,17 @@ export default function RequestCommissionPage() {
     setIsSubmitting(true);
     
     try {
-      // Prepare the commission data
+      // Ensure all required fields are included and not optional
       const commissionData = {
-        ...values,
+        title: values.title,
+        description: values.description,
+        type: values.type,
+        target: values.target,
+        reward: values.reward,
+        deadline: values.deadline,
+        priority: values.priority,
+        anonymous: values.anonymous,
+        contactInfo: values.contactInfo || '',
         requesterName: values.anonymous ? "Anonymous" : values.contactInfo || "Anonymous",
         status: "Open",
       };
