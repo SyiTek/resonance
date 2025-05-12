@@ -12,17 +12,40 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
-  // Disable SWC compiler, use Babel instead
-  swcMinify: false,
+  // Configure SWC for optimal performance
+  swcMinify: true,
   compiler: {
-    styledComponents: true,
+    // Remove console.logs in production
+    removeConsole: process.env.NODE_ENV === 'production',
   },
-  webpack: (config, { dev, isServer }) => {
-    if (dev && isServer) {
-      config.cache = false;
+  // Handle environment variables
+  env: {
+    NEXT_PUBLIC_FIREBASE_PROJECT_ID: 'resonance-fa2ae',
+  },
+  // Common webpack configurations
+  webpack: (config, { isServer }) => {
+    // Fix "Can't resolve 'fs'" or other Node.js specific modules on the client
+    if (!isServer) {
+      config.resolve.fallback = {
+        fs: false,
+        net: false,
+        tls: false,
+        crypto: require.resolve('crypto-browserify'),
+        stream: require.resolve('stream-browserify'),
+        path: require.resolve('path-browserify'),
+      };
     }
+    
     return config;
-  }
+  },
+  // Enable image optimization
+  images: {
+    domains: ['firebasestorage.googleapis.com'],
+  },
+  // Remove warning about experimental features
+  experimental: {
+    appDir: true,
+  },
 };
 
 module.exports = nextConfig;
