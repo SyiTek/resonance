@@ -32,7 +32,51 @@ import {
 import { Progress } from '@/components/ui/progress';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
-const PowerStat = ({ label, value, maxValue, color }) => {
+interface PowerStatProps {
+  label: string;
+  value: number;
+  maxValue: number;
+  color: string;
+}
+
+// Define interfaces for your data
+interface Document {
+  id: string;
+  title: string;
+  date: string;
+  type: string;
+}
+
+interface Activity {
+  date: string;
+  description: string;
+  agent: string;
+}
+
+interface Target {
+  id: string;
+  name: string;
+  type: string;
+  status: string;
+  riskLevel: string;
+  lastUpdated: string;
+  infoCount?: number;
+  assignedAgents?: string[];
+  progress: number;
+  image?: string;
+  description: string;
+  location?: string;
+  knownMembers?: number;
+  documents?: Document[];
+  activities?: Activity[];
+  [key: string]: any; // For any additional properties
+}
+
+interface MockTargets {
+  [key: string]: Target;
+}
+
+const PowerStat = ({ label, value, maxValue, color }: PowerStatProps) => {
   const percentage = (value / maxValue) * 100;
   return (
     <div className="mb-2">
@@ -57,7 +101,7 @@ export default function TargetDetailsPage() {
   const params = useParams();
   const targetId = params.targetId as string;
   const [loaded, setLoaded] = useState(false);
-  const [target, setTarget] = useState<any>(null);
+  const [target, setTarget] = useState<Target | null>(null);
   const [showRankAnimation, setShowRankAnimation] = useState(true);
   
   useEffect(() => {
@@ -67,7 +111,7 @@ export default function TargetDetailsPage() {
       
       // Find the target by ID - mock data
       // In a real app, this would be an API call
-      const mockTargets = {
+      const mockTargets: MockTargets = {
         'TG-001': {
           id: 'TG-001',
           name: 'Shadow Hunters Guild',
