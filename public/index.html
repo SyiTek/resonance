@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resonance</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .loader {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      border: 3px solid rgba(168, 85, 247, 0.3);
+      border-radius: 50%;
+      border-top-color: rgba(168, 85, 247, 1);
+      animation: spin 1s ease-in-out infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    .loading-text {
+      margin-top: 20px;
+      font-size: 18px;
+      color: rgba(168, 85, 247, 0.8);
+    }
+  </style>
+  <script>
+    // Redirect to app route after Firebase Hosting loads
+    window.onload = function() {
+      window.location.href = '/app';
+    }
+  </script>
+</head>
+<body>
+  <div>
+    <div class="loader"></div>
+    <div class="loading-text">Loading Resonance...</div>
+  </div>
+</body>
+</html> 
