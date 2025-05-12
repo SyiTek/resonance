@@ -28,6 +28,7 @@ import {
 import { toast } from 'sonner';
 import RequestCommissionAnimation from '@/components/commissions/request-commission-animation';
 import { createCommission } from '@/lib/firebase';
+import ClientOnly from '@/utils/client-only';
 
 const formSchema = z.object({
   title: z.string().min(5, {
@@ -162,7 +163,9 @@ export default function RequestCommissionPage() {
       <div className="digital-noise"></div>
       
       {/* Animated background */}
-      <RequestCommissionAnimation />
+      <ClientOnly>
+        <RequestCommissionAnimation />
+      </ClientOnly>
       
       <motion.div
         initial={{ opacity: 0, y: 20 }}

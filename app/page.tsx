@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Clock } from 'lucide-react';
 import HeroAnimation from '@/components/home/hero-animation';
 import GuildFeatures from '@/components/home/guild-features';
+import ClientOnly from '@/utils/client-only';
 
 export default function Home() {
   const [loaded, setLoaded] = useState(false);
@@ -99,7 +100,9 @@ export default function Home() {
           </motion.div>
         </motion.div>
         
-        <HeroAnimation />
+        <ClientOnly>
+          <HeroAnimation />
+        </ClientOnly>
       </section>
 
       {/* Guild information section */}

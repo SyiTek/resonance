@@ -21,6 +21,7 @@ import {
 import { toast } from 'sonner';
 import { useAuth } from '@/contexts/AuthContext';
 import LoginAnimation from '@/components/auth/login-animation';
+import ClientOnly from '@/utils/client-only';
 
 const formSchema = z.object({
   email: z.string().email({
@@ -92,7 +93,9 @@ export default function LoginPage() {
       <div className="digital-noise"></div>
       
       {/* Animated background */}
-      <LoginAnimation />
+      <ClientOnly>
+        <LoginAnimation />
+      </ClientOnly>
       
       <motion.div
         initial={{ opacity: 0, y: 20 }}

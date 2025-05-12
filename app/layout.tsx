@@ -34,6 +34,14 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            // Handle window object not available during SSR
+            window.requestAnimationFrame = window.requestAnimationFrame || function(cb) {setTimeout(cb, 0)};
+          `
+        }} />
+      </head>
       <body
         className={`${inter.variable} ${orbitron.variable} font-sans antialiased overflow-x-hidden min-h-screen`}
       >

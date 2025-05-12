@@ -12,6 +12,11 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  // Disable SWC compiler, use Babel instead
+  swcMinify: false,
+  compiler: {
+    styledComponents: true,
+  },
   webpack: (config, { dev, isServer }) => {
     if (dev && isServer) {
       config.cache = false;
